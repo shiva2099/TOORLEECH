@@ -9,6 +9,9 @@
 # Dumbfucks are requested not to rape this repo or i will make it private and !!!!!!!!^&^!%@%%@%@@%#@#!%$%%&^%^&!%^&
 
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) deploy button-2 
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/shiva20991/TorLeech) deploy button-2 
 
 ## both deploy buttons arent same....
