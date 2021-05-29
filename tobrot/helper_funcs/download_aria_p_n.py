@@ -280,11 +280,11 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                     msgg = f"Conn: {file.connections} <b>|</b> GID: <code>{gid}</code>"
                 else:
                     msgg = f"P: {file.connections} | S: {file.num_seeders} <b>|</b> GID: <code>{gid}</code>"
-                msg = f"\n`{downloading_dir_name}`"
-                msg += f"\n<b>|Speed</b>: {file.download_speed_string()}"
-                msg += f"\n<b>|Progress</b>: {file.progress_string()} <b>of</b> {file.total_length_string()} <b>|</b> {file.eta_string()} <b>|</b> {msgg}"
-                msg += f"\n<b>|Total Size: {file.total_length_string()}"
-                msg += f"\n<b>|ETA: {file.eta_string()}"
+                msg = f"\n<b>|📁𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚</b>:`{downloading_dir_name}`\n"
+                msg += f"\n<b>|🏃💨𝙎𝙥𝙚𝙚𝙙</b>: {file.download_speed_string()}"
+                msg += f"\n<b>|𝙋𝙧𝙤𝙜𝙧𝙚𝙨𝙨</b>: {file.progress_string()} <b>of</b> {file.total_length_string()} <b>|</b> {file.eta_string()} <b>|</b> {msgg}"
+                msg += f"\n<b>|𝙏𝙤𝙩𝙖𝙡 𝙎𝙞𝙯𝙚: {file.total_length_string()}"
+                msg += f"\n<b>|💥𝙏𝙞𝙢𝙚𝙧 𝙗𝙤𝙢𝙗: {file.eta_string()}"
                 # if is_file is None :
                 # msg += f"\n<b>Conn:</b> {file.connections}, GID: <code>{gid}</code>"
                 # else :
